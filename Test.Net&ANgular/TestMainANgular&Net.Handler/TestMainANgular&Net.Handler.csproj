@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>TestMainANgular_Net.Handler</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestMainANgular&amp;Net.AggregateRoot\TestMainANgular&amp;Net.AggregateRoot.csproj" />
+    <ProjectReference Include="..\TestMainANgular&amp;Net.DTO\TestMainANgular&amp;Net.DTO.csproj" />
+    <ProjectReference Include="..\TestMainANgular&amp;Net.Repository\TestMainANgular&amp;Net.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

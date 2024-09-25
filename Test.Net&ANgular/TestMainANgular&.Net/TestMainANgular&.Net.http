@@ -1,0 +1,6 @@
+@TestMainANgular_.Net_HostAddress = http://localhost:5286
+
+GET {{TestMainANgular_.Net_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
